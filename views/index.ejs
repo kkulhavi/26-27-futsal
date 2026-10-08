@@ -1,0 +1,230 @@
+<%- include('header'); -%>
+<!-- elimination chart -->
+<div class="container">
+
+<img src="social.jpg" alt="" hidden>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="message"></p>
+    </div>
+  
+</div>
+        
+
+<div id="toQualifPage" class="box mid back">
+        <a href="qualifications">qualifi<br>cations</a> 
+</div>
+
+        <!--***************************quarter******************************************
+<span class="today">danas</span> -->
+        <div class="quarter-round box">
+            <div class="col-title">quarter</div>
+    <div class="s3-start"></div>
+<!--(25)------------------------------------------------------------------->
+<div id="myBtn" onclick="sendId(25)">
+                <div class="team bb">
+                    <span class="b">Prof</span> 
+                    <span class="rez g b">5</span>
+                </div>
+                <div class="team br">
+                    <!-- <span class="today le">20.10. <br>13:10</span> -->
+                    <span class="">3.MT</span> <span class="rez br">0</span>
+                    
+                </div>
+</div> 
+            
+            
+<!--26----------------------------------------------------------------->
+    <div class="separator-q"></div>  
+    <div id="myBtn" onclick="sendId(26)">
+                <div class="team bb br">
+                    <span class="b">3.RT</span> <span class="rez g b">4</span>
+                </div>  
+                <div class="team">
+                    <!-- <span class="today le">20.10. <br>12:25</span> -->
+                    4.RT <span class="rez br">2</span>
+                </div>
+    </div>    
+<!--27---------------------------------------------------------------->
+    <div class="separator-q-noline"></div> 
+    <div id="myBtn" onclick="sendId(27)">
+            <div class="team bb">
+                <span class="b">2.S</span> <span class="rez g b">1</span>  
+            </div>
+            <div class="team br">
+                <!-- <span class="today le">18.10. <br>11:35</span> -->
+                1.PT<span class="rez br">0</span>
+            </div>
+    </div>  
+<!--28---------------------------------------------------------------->
+    <div class="separator-q"></div> 
+    <div id="myBtn" onclick="sendId(28)">
+            <div class="team bb br">
+                
+                <span class="b">4.EL</span> <span class="rez g b">2</span>
+            </div>
+            <div class="team">
+                <!-- <span class="today le">19.10. <br>13:15</span> -->
+                <span class="">2.EL</span> <span class="rez br ">1</span>
+                
+            </div>
+        </div>
+    </div>  
+
+<!--***************************sfinals******************************************-->
+
+        <div class="semi-finals box">
+            <div class="col-title">sfinals</div>
+            <div class="sq-start"></div>
+<!--(29)--------------------------------------------------------->
+<div id="myBtn" onclick="sendId(29)">
+      <div class="team bb">
+                Prof<span class="rez br">2</span>
+            </div>
+            
+            <div class="team br">
+                
+                <span class="b">3.RT</span> <span class="rez g b">5</span>
+            </div>
+    </div>
+            </span>
+            <div class="separator-s">
+              <div class="stand">
+                
+                <div class="today">1.mj<br>🥇<br>3.RT</div>
+                <div class="today gray">2.mj<br>🥈<br>&nbsp;2.S&nbsp;</div>
+                <div id="myBtn" onclick="sendId(32)">
+                    <div class="today bronze">3.mj<br>🥉<br>&nbsp;4.EL&nbsp;</div>
+                </div>  
+              </div>
+            </div>  
+
+              
+                
+ <!--(30)--------------------------------------------------------->               
+            
+            <div id="myBtn" onclick="sendId(30)">
+                <div class="team bb br bq">
+                    <span class="b">2.S</span> <span class="rez g b">2</span>
+                </div>  
+                <div class="team s3">
+                    4.EL<span class="rez br">1</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!--***************************finals******************************************-->
+        <div class="finals box">
+            <div class="col-title">finals</div>
+            <div class="finals-start">
+
+            </div>
+<!--31------------------------------------------------------------------->
+            <div id="myBtn" onclick="sendId(31)">
+                <div class="team bb">
+                    🏆<span class="b">3.RT</span> <span class="rez br g">2(5)</span>   
+                </div>
+                    
+                <div class="team">
+                    <span class="">2.S</span> <span class="rez">2(4)</span>
+                </div>   
+            </div>
+            
+        </div>
+
+        <!--***************************winner******************************************
+        <div class="finals box">
+            <div class="col-title">winner</div>
+            <div class="ssemi-start">
+
+            </div>
+            
+            <div class="team bb">
+                🏆winner
+            </div>
+            
+         -->   
+        </div>
+    
+    </div>
+
+
+
+    <!-- best players -->
+    <div class="best-players dn">
+        <div class="bp-space" ></div>
+        <select name="" id="selectBestScores" onchange="getScorers(value)">
+            <option value="1" >2. kola, č-finala, p-finala i finala</option>
+            <option value="4" >četvrtfinala</option>
+            <option value="2">1. kola</option>
+            <option value="3">ukupno</option>
+        </select>
+        <div class="bp-space"></div>
+        <table>
+            <tr>
+                <th>Br</th>
+                <th>Prezime</th>
+                <th>Ime</th>
+                <th>Golova</th>
+                <th>Razred</th>
+            </tr>
+            <tbody id="bp-list">
+    
+            </tbody>
+    
+          </table>
+     
+    <div class="legend dn">
+            <p>🟡-nema promjene</p>   
+            <p>🔼-porast</p>
+            <p><span class="new-entry">new</span>-novi</p>
+        
+        </div>      
+    </div>
+        
+
+<!-- about -->
+<div class="about dn">
+    <div class="info">
+        <p>Aplikacija služi za praćenje rezultata TŠD futsala 2022. Kada se klikne na meč 2. kola, četvrtfinala, polufinala i finala, prikazat će se statistika za taj meč. U izradi aplikacije sudjeluju:</p>  
+        <br>
+        <div class="info-staff">
+            <p>💡 Danko Tomašek, ideja, informacije</p>
+            <p>🟥 Leonardo Čuhnil, sudac, informacije</p>
+            <p>👨‍💻 Krunoslav Kulhavi, ideja, razvoj</p>   
+        </div>
+        
+    </div>
+    <div class="web-traffic">
+            <img src="web_traffic.png" alt="web-traff">
+        </div>
+    <div class="card">
+        <div>
+            <img src="infinity-free.webp" alt="">   
+        </div>
+        <div>
+            <img src="frenom.webp" alt="">
+        </div>
+        <div>
+            <img src="cloudflare.webp" alt="">
+        </div>
+
+
+    </div>
+</div>
+<script>
+    const toQualifPage=document.querySelector('#toQualifPage')
+
+    toQualifPage.addEventListener('click',()=>{
+        
+        window.location.href='qualifications'
+    })
+</script>   
+
+<%- include('footer'); -%>

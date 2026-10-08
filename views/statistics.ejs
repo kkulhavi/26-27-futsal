@@ -1,0 +1,33 @@
+<%- include('header'); -%>
+
+<div class="container">
+
+    <div class="bp-space"></div>
+        <table>
+            <tr>
+                <th>Finals </th>
+                <th>Qualif </th>
+                <th>Best pl</th>
+                <th>About</th>
+                <th>Total</th>
+
+            </tr>
+        <tbody>
+                <tr>
+                    <td><%= countFinals %></td>
+                    <td><%= countQualif %></td>
+                    <td><%= countBest %></td>
+                    <td><%= countAbout %></td>
+                    <td><%= countFinals+countQualif+countBest+countAbout %></td>
+
+                </tr>      
+
+        </tbody>
+                
+               
+      </table>     
+
+</div>
+
+
+<%- include('footer'); -%>

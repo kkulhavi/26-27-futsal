@@ -1,0 +1,70 @@
+    
+    <%- include('header'); -%>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="message"></p>
+    </div>
+  
+  </div>
+    
+    <div class="best-players">
+    
+
+        <div class="bp-space" ></div>
+        <!-- <select name="" id="selectBestScores" onchange="getBestPlayers(value)"> 
+            <option value="1" >1. i 2.kola, č-finala, p-finala i finala</option>
+
+            <option value="4" ><a href="/bestplayersquarter">četvrt</a> </option>
+            <option value="2">1. kola</option>
+            <option value="3">ukupno</option>
+        </select>-->
+        <div class="bp-space"></div>
+        <div class="links">
+          <a class="<%= y1 %>" href="bestplayer1st">1st</a>  
+          <a class="<%= y2 %>" href="bestplayer2nd">2nd</a>  
+          <a class="<%= yq %>" href="bestplayersquarter">quart</a>  
+          <a class="<%= y2q %>" href="bestplayers2ndquarter"><span class="today">official</span></a>  
+          <a class="<%= y %>" href="bestplayers">ukupno</a>  
+        </div>
+        
+        <table>
+            <tr>
+                <th>Br</th>
+                <th>Prezime</th>
+                <th>Ime</th>
+                <th>Golova <span class="today"><%= total %></span></th>
+                <th>Razred</th>
+            </tr>
+       <!--     <tbody id="bp-list">-->
+        <tbody>
+            <% bp.forEach((player,i) => { %>
+                <tr>
+                    <td><%=i+1 %></td>
+                    <td><%= player.surname%></td>
+                    <td><%= player.name%></td>
+                    <td><%= player.goal%></td>
+                    <td><%= player.cl%></td> 
+                </tr>      
+        <% }) %>
+        </tbody>
+                
+               
+      </table>          
+      <!--       </tbody>
+    
+          
+     
+    <div class="legend dn">
+            <p>🟡-nema promjene</p>   
+            <p>🔼-porast</p>
+            <p><span class="new-entry">new</span>-novi</p>
+        
+        </div>-->       
+    </div>
+
+    <%- include('footer'); -%>
