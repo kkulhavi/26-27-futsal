@@ -246,7 +246,8 @@ var groupByGoalAndSortBySurname2ndQuarterAsc=result2ndQuarter.sort((a,b)=>b.goal
 app.get('/', (req, res) => {
   countFinals++
   //res.render('index')
-  res.render('qualifications',{fround:firstRound})
+res.render('qualifications')
+//  res.render('qualifications',{fround:firstRound})
 })
 app.get('/finals', (req, res) => {
   res.render('index')
