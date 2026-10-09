@@ -290,7 +290,7 @@ app.get('/stats', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-  res.render(JSON.stringify(firstRound))
+  res.render(firstRound)
 })
 
 
