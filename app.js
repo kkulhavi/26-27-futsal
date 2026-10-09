@@ -67,7 +67,7 @@ const firstRound=[
       /*31 */
   {id:31, round: 5, fTeam:'3.RT',sTeam:'2.S',fTeamScore:2, sTeamScore:2, goals:[{name: '', surname: '', goal:0, cl:''}]},
 ]
-/*vicić,ivić,gegić 2.sp jedan razmak */
+
 
 
 const bestPlayers=[
@@ -312,3 +312,57 @@ app.get('/total',(req,res)=>{
 })
 
 app.listen(port)
+
+
+
+
+
+
+
+
+/*
+const firstRound=[
+    {id:1, round: 1, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:2, round: 1, fTeam:'1.PT',sTeam:'2.MT',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '', goal:0, cl:''},]},
+    {id:3, round: 1, fTeam:'3.EL',sTeam:'2.SE',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:4, round: 1, fTeam:'1.MT',sTeam:'3.PT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:5, round: 1, fTeam:'3.SP',sTeam:'1.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:6, round: 1, fTeam:'2.PT',sTeam:'2.EL',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:7, round: 1, fTeam:'KM',sTeam:'2.P',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  /*-*/{id:8, round: 1, fTeam:'-',sTeam:'4.EL',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
+  /*-*/{id:9, round: 1, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
+    {id:10, round: 1, fTeam:'3.P',sTeam:'1.SE',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:11, round: 1, fTeam:'1.EL',sTeam:'2.S',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:12, round: 1, fTeam:'2.RT',sTeam:'4.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  /*-*/{id:13, round: 1, fTeam:'1.P',sTeam:'3.SA',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
+    {id:14, round: 1, fTeam:'1.S',sTeam:'3.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:15, round: 1, fTeam:'3.S',sTeam:'4.PT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  /*-*/{id:16, round: 1, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
+  
+/*second round */
+      {id:17, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:18, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:19, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:20, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:21, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:22, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:23, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:24, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0 , goals:[{name: '', surname: '', goal:0, cl:''}]},
+      //quarter finals-round 3
+      /*25-28 */
+      {id:25, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:26, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:27, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:28, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+   //semi finals
+      /*29-30 */
+  {id:29, round: 4, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  {id:30, round: 4, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+   //finals
+      /*31 */
+  {id:31, round: 5, fTeam:'3.RT',sTeam:'2.S',fTeamScore:2, sTeamScore:2, goals:[{name: '', surname: '', goal:0, cl:''}]},
+]
+
+
+
+*/
