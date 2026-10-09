@@ -253,7 +253,7 @@ app.get('/', (req, res) => {
 res.render('qualifications',{fround:firstRound})
 })
 app.get('/finals', (req, res) => {
-  res.render('index')
+  res.render('index',{fround:firstRound})
 })
 app.get('/bestplayers', (req, res) => {
   countBest++
