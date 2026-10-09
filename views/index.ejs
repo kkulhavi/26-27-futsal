@@ -84,22 +84,20 @@
 <!--(29)--------------------------------------------------------->
 <div id="myBtn" onclick="sendId(29)">
       <div class="team bb">
-                Prof<span class="rez br">2</span>
+                <%= fround[28].fTeam %> <span class="rez br"><%= fround[28].fTeamScore %></span>
             </div>
-            
             <div class="team br">
-                
-                <span class="b">3.RT</span> <span class="rez g b">5</span>
+                <span class="b"><%= fround[28].sTeam %></span> <span class="rez g b"><%= fround[28].sTeamScore %></span>   
             </div>
     </div>
             </span>
             <div class="separator-s">
               <div class="stand">
                 
-                <div class="today">1.mj<br>🥇<br>3.RT</div>
-                <div class="today gray">2.mj<br>🥈<br>&nbsp;2.S&nbsp;</div>
+                <div class="today">1.mj<br>🥇<br>---</div>
+                <div class="today gray">2.mj<br>🥈<br>&nbsp;---&nbsp;</div>
                 <div id="myBtn" onclick="sendId(32)">
-                    <div class="today bronze">3.mj<br>🥉<br>&nbsp;4.EL&nbsp;</div>
+                    <div class="today bronze">3.mj<br>🥉<br>&nbsp;---&nbsp;</div>
                 </div>  
               </div>
             </div>  
@@ -110,10 +108,10 @@
             
             <div id="myBtn" onclick="sendId(30)">
                 <div class="team bb br bq">
-                    <span class="b">2.S</span> <span class="rez g b">2</span>
+                    <%= fround[29].fTeam %> <span class="rez"><%= fround[29].fTeamScore %></span>
                 </div>  
                 <div class="team s3">
-                    4.EL<span class="rez br">1</span>
+                    <span class="b"><%= fround[29].sTeam %></span> <span class="rez g b"><%= fround[29].sTeamScore %></span>     
                 </div>
             </div>
 
@@ -128,11 +126,11 @@
 <!--31------------------------------------------------------------------->
             <div id="myBtn" onclick="sendId(31)">
                 <div class="team bb">
-                    🏆<span class="b">3.RT</span> <span class="rez br g">2(5)</span>   
+                    🏆<%= fround[30].fTeam %> <span class="rez br"><%= fround[30].fTeamScore %></span>  
                 </div>
                     
                 <div class="team">
-                    <span class="">2.S</span> <span class="rez">2(4)</span>
+                    <span class="b"><%= fround[30].sTeam %></span> <span class="rez g b"><%= fround[30].sTeamScore %></span>   
                 </div>   
             </div>
             
