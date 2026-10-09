@@ -79,11 +79,11 @@
 <!--(5)---------------------------------------------------------->
         <div id="myBtn" onclick="sendId(5)">
             <div class="team bb">
-                3.EL <span class="rez br">2</span>
+                <%= fround[4].fTeam %> <span class="rez br"><%= fround[4].fTeamScore %></span>
              </div>
              <div class="team br">
                  <!-- <span class="today le">10:40 va</span> -->
-                 <span class="b">1.P</span> 
+                 <span class="b"><%= fround[4].sTeam %></span> <span class="rez g b"><%= fround[4].sTeamScore %></span>   
                  <span class="rez br g b">3</span>
              </div> 
         </div>
@@ -92,11 +92,11 @@
         <div class="separator-11"></div>
         <div id="myBtn" onclick="sendId(6)">
             <div class="team bb br">
-                <span class="b">3.RT</span> <span class="rez g b">9</span>
+                <%= fround[1].fTeam %> <span class="rez"><%= fround[1].fTeamScore %></span>
             </div>
             <div class="team">
                 <!-- <span class="today le">10:40 dv</span> -->
-                <span >4.PT</span> <span class="rez br">0</span>
+                <span class="b"><%= fround[1].sTeam %></span> <span class="rez g b"><%= fround[1].sTeamScore %></span>     
             </div>
         </div>    
             
@@ -104,11 +104,11 @@
         <div class="separator-1"></div>        
         <div id="myBtn" onclick="sendId(7)">
             <div class="team bb">
-                <span class="b">1.EL</span> <span class="rez br">0</span>
+                <%= fround[6].fTeam %> <span class="rez br"><%= fround[6].fTeamScore %></span>
             </div>
             <div class="team br">
                 <!-- <span class="today le">11:55 dv</span> -->
-                3.S<span class="rez g b">3</span>
+                <span class="b"><%= fround[6].sTeam %></span> <span class="rez g b"><%= fround[6].sTeamScore %></span>   
             </div>
         </div>
             
@@ -116,10 +116,10 @@
 
         <div class="separator-11"></div>
             <div class="team bb br">
-                ---
+                <%= fround[7].fTeam %> <span class="rez br"><%= fround[7].fTeamScore %></span>
             </div>
             <div class="team">
-                ---
+                <span class="b"><%= fround[7].sTeam %></span> <span class="rez br g"><%= fround[7].sTeamScore %></span>  
             </div>
 
 <!--(9)---------------------------------------------------------->            
