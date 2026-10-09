@@ -72,7 +72,7 @@ const firstRound=[
 
 const bestPlayers=[
     
-  //...firstRound[0].goals,
+  ...firstRound[0].goals,
   ...firstRound[1].goals,
   ...firstRound[2].goals,
   ...firstRound[3].goals,
@@ -82,11 +82,10 @@ const bestPlayers=[
   ...firstRound[9].goals,
   ...firstRound[10].goals,
   ...firstRound[11].goals, 
-  //...firstRound[11].goals, 
-  //...firstRound[12].goals, 
+  ...firstRound[12].goals, 
   ...firstRound[13].goals, 
   ...firstRound[14].goals,
-  //...firstRound[15].goals, 
+  ...firstRound[15].goals, 
 
   /*second round */
   ...firstRound[16].goals, 
