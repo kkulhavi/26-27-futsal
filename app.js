@@ -27,8 +27,8 @@ const items=[
 
 ]
 const firstRound=[
-  /*-*/{id:1, round: 1, fTeam:'2.S',sTeam:'3.EL',fTeamScore:0, sTeamScore:2, goals:[{name: 'Stjepan', surname: 'Bina', goal:2, cl:'3.EL'}]},
-    {id:2, round: 1, fTeam:'2.MT',sTeam:'1.S',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: 'Alandžak', goal:4, cl:'2.MT'},{name: '-', surname: 'Đinić', goal:1, cl:'2.MT'},]},
+  /*-*/{id:1, round: 1, fTeam:'-',sTeam:'-',fTeamScore:, sTeamScore:, goals:[{name: '', surname: '', goal:, cl:''}]},
+    {id:2, round: 1, fTeam:'1.PT',sTeam:'2.MT',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '', goal:0, cl:''},]},
     {id:3, round: 1, fTeam:'2.PT',sTeam:'2.RT',fTeamScore:2, sTeamScore:1, goals:[{name: '-', surname: 'Štajgler ', goal:1, cl:'2.PT'}, {name: '-', surname: 'Bešlić', goal:1, cl:'2.PT'},{name: '-', surname: 'Bičak', goal:1, cl:'2.RT'},]},
     {id:4, round: 1, fTeam:'1.MT',sTeam:'3:MT',fTeamScore:0, sTeamScore:1, goals:[{name: '-', surname: 'Piščević', goal:1, cl:'3.MT'}]},
     {id:5, round: 1, fTeam:'3.EL',sTeam:'1.P',fTeamScore:3, sTeamScore:2, goals:[{name: '-', surname: 'Plavček', goal:2, cl:'3.EL'}, {name: '-', surname: 'Tomašković', goal:1, cl:'3.EL'}, {name: '-', surname:'Havliček', goal:1, cl:'1.P'}, {name: '-',surname:'Skalnik', goal:1, cl:'1.P'}]},
