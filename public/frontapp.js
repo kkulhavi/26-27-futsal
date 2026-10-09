@@ -14,7 +14,7 @@ var span = document.getElementsByClassName("close")[0];
 function sendId(id){
   modal.style.display = "block";
 
-  if (id==1||id==8||id==9||id==13||id==16) {
+  if (id==1||id==9) {
     message.innerHTML='nema para 🤑 $ 💲 ＄ 💰'
   }
   else if(id==100)
