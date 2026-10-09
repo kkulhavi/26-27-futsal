@@ -112,7 +112,7 @@ const bestPlayers=[
 ]
 const bestPlayers1st=[
     
-  //...firstRound[0].goals,
+  ...firstRound[0].goals,
   ...firstRound[1].goals,
   ...firstRound[2].goals,
   ...firstRound[3].goals,
@@ -122,11 +122,11 @@ const bestPlayers1st=[
   ...firstRound[9].goals,
   ...firstRound[10].goals,
   ...firstRound[11].goals, 
-  //...firstRound[11].goals, 
-  //...firstRound[12].goals, 
+  ...firstRound[11].goals, 
+  ...firstRound[12].goals, 
   ...firstRound[13].goals, 
   ...firstRound[14].goals,
-  //...firstRound[15].goals, 
+  ...firstRound[15].goals, 
 ]
   /*2nd */
   var bestPlayers2nd=[
