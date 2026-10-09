@@ -277,7 +277,7 @@ app.get('/qualifications', (req, res) => {
 })
 app.get('/about', (req, res) => {
   countAbout++
-  res.render('about',{dev:'Krunoslav Kulhavi', judge:'Mihael Malina, David Dubravac, Ivan Benković, Donatto Matković, David Vacka', writer:'Dean Rončević, Toni Čimiris, Patrik Broš, David Vacka', idea:'Danko Tomašek'})
+  res.render('about',{dev:'Krunoslav Kulhavi', judge:'Borna Kočiš, Andrija Mlinar, Nikola Kolić, Marko Čović, Marko Flanjak', writer:'-', idea:'Danko Tomašek'})
 })
 
 
