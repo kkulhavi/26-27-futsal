@@ -45,24 +45,24 @@ const firstRound=[
   /*-*/{id:16, round: 1, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
   
 /*second round */
-      {id:17, round: 2, fTeam:'4.MT',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:18, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:19, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:20, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:21, round: 2, fTeam:'3.MT',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:22, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:23, round: 2, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:17, round: 2, fTeam:'4.MT',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:18, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:19, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:20, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:21, round: 2, fTeam:'3.MT',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:22, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:23, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:24, round: 2, fTeam:'',sTeam:'PROF',fTeamScore:0, sTeamScore:0 , goals:[{name: '', surname: '', goal:0, cl:''}]},
       //quarter finals-round 3
       /*25-28 */
-      {id:25, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:26, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:27, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:28, round: 3, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:25, round: 3, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:26, round: 3, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:27, round: 3, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:28, round: 3, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
    //semi finals
       /*29-30 */
-  {id:29, round: 4, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-  {id:30, round: 4, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  {id:29, round: 4, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  {id:30, round: 4, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
    //finals
       /*31 */
   {id:31, round: 5, fTeam:'3.RT',sTeam:'2.S',fTeamScore:2, sTeamScore:2, goals:[{name: '', surname: '', goal:0, cl:''}]},
