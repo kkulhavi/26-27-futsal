@@ -27,8 +27,8 @@ const items=[
 
 ]
 const firstRound=[
-  /*-*/{id:1, round: 1, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-    {id:2, round: 1, fTeam:'1.PT',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '', goal:0, cl:''},]},
+    {id:1, round: 1, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:2, round: 1, fTeam:'1.PT',sTeam:'2.MT',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '', goal:0, cl:''},]},
     {id:3, round: 1, fTeam:'3.EL',sTeam:'2.SE',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:4, round: 1, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:5, round: 1, fTeam:'',sTeam:'',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
