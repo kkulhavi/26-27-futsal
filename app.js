@@ -289,6 +289,10 @@ app.get('/stats', (req, res) => {
   res.render('statistics',{countFinals,countQualif, countBest,countAbout})
 })
 
+app.get('/api', (req, res) => {
+  res.render(JSON.stringify(firstRound))
+})
+
 
 
 
