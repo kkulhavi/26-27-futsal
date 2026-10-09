@@ -39,7 +39,7 @@ const firstRound=[
     {id:10, round: 1, fTeam:'3.P',sTeam:'1.SE',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:11, round: 1, fTeam:'1.EL',sTeam:'2.S',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:12, round: 1, fTeam:'2.RT',sTeam:'4.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-  /*-*/{id:13, round: 1, fTeam:'1.P',sTeam:'3.SA',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
+  /*-*/{id:13, round: 1, fTeam:'1.P',sTeam:'3.SA',fTeamScore:5, sTeamScore:2, goals:[{name: 'Dorian', surname: 'Stojčević', goal:1, cl:'1.P'}, {name: 'Mario', surname: 'Šilarić', goal:1, cl:'1.P'}, {name: 'Bruno', surname: 'Marijanović', goal:1, cl:'3.SA'},{name: 'Mateo', surname: 'Bukać', goal:1, cl:'3.SA'}]},
     {id:14, round: 1, fTeam:'1.S',sTeam:'3.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:15, round: 1, fTeam:'3.S',sTeam:'4.PT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
   /*-*/{id:16, round: 1, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
