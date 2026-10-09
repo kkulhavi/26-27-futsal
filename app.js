@@ -52,7 +52,7 @@ const firstRound=[
       {id:21, round: 2, fTeam:'3.MT',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:22, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:23, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:24, round: 2, fTeam:'',sTeam:'PROF',fTeamScore:0, sTeamScore:0 , goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:24, round: 2, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0 , goals:[{name: '', surname: '', goal:0, cl:''}]},
       //quarter finals-round 3
       /*25-28 */
       {id:25, round: 3, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
