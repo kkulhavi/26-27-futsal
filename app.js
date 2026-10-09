@@ -67,7 +67,11 @@ const firstRound=[
       /*31 */
   {id:31, round: 5, fTeam:'3.RT',sTeam:'2.S',fTeamScore:2, sTeamScore:2, goals:[{name: '', surname: '', goal:0, cl:''}]},
 ]
-
+/*
+function resultFormat(firstRo){
+    
+}
+*/
 
 
 const bestPlayers=[
