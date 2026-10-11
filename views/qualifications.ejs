@@ -23,8 +23,12 @@
                         <%= fround[0].fTeam %> <span class="rez br"><%= fround[0].fTeamScore %></span>
                     </div>
                     <div class="team br">
-                        <span class=<%- fround[0].fTeam>fround[0].fTeam ? '' : 'b' %>>
-                        <%= fround[0].sTeam %></span> <span class="rez g b"><%= fround[0].sTeamScore %></span>   
+                        <span class=<%- fround[0].sTeam>fround[0].fTeam ? 'b' : '' %>>
+                          <%= fround[0].sTeam %>
+                        </span> 
+                        <span class=<%- fround[0].sTeam>fround[0].fTeam ? 'rez g b' : 'rez' %>>
+                          <%= fround[0].sTeamScore %>
+                        </span>   
                     </div>
                 </div >
            
