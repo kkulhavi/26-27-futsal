@@ -17,21 +17,13 @@ var countQualif=0
 var countBest=0
 var countAbout=0
 
-const fruits=['apple','pear','plum','raspberry']
-const items=[
-    {name:'iPhone', price: 800, category:'mobile', brand:'Apple', url:'http://abc'},
-    {name:'A70', price: 400, category:'mobile', brand:'Samsung', url:'http://abc'},
-    {name:'A71', price: 500, category:'mobile', brand:'Samsung', url:'http://abc'},
-    {name:'S21', price: 700, category:'mobile', brand:'Samsung', url:'http://abc'},
-    {name:'HP gamer', price: 1700, category:'desktop', brand:'HP', url:'http://abc'}
 
-]
 const firstRound=[
     {id:1, round: 1, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:2, round: 1, fTeam:'1.PT',sTeam:'2.MT',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '', goal:0, cl:''},]},
     {id:3, round: 1, fTeam:'3.EL',sTeam:'2.SE',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-    {id:4, round: 1, fTeam:'1.MT',sTeam:'3.PT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-    {id:5, round: 1, fTeam:'3.SP',sTeam:'1.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:4, round: 1, fTeam:'1.MT',sTeam:'3.PT',fTeamScore:1, sTeamScore:1, goals:[{name: 'Gabrijel', surname: 'Doljanin', goal:1, cl:'3.PT'}, {name: 'Luka', surname: 'Ogujić', goal:1, cl:'3.MT'}]},
+    {id:5, round: 1, fTeam:'3.SP',sTeam:'1.RT',fTeamScore:1, sTeamScore:3, goals:[{name: 'Gabriel', surname: 'Jozić', goal:1, cl:'1.RT'}, {name: 'Ivan', surname: 'Branković', goal:3, cl:'3.SP'}]},
     {id:6, round: 1, fTeam:'2.PT',sTeam:'2.EL',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:7, round: 1, fTeam:'KM',sTeam:'2.P',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
   /*-*/{id:8, round: 1, fTeam:'-',sTeam:'4.EL',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
@@ -40,8 +32,8 @@ const firstRound=[
     {id:11, round: 1, fTeam:'1.EL',sTeam:'2.S',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:12, round: 1, fTeam:'2.RT',sTeam:'4.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
   /*-*/{id:13, round: 1, fTeam:'1.P',sTeam:'3.SA',fTeamScore:5, sTeamScore:2, goals:[{name: 'Dorian', surname: 'Stojčević', goal:1, cl:'1.P'}, {name: 'Mario', surname: 'Šilarić', goal:4, cl:'1.P'}, {name: 'Bruno', surname: 'Marijanović', goal:1, cl:'3.SA'},{name: 'Mateo', surname: 'Bukać', goal:1, cl:'3.SA'}]},
-    {id:14, round: 1, fTeam:'1.S',sTeam:'3.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-    {id:15, round: 1, fTeam:'3.S',sTeam:'4.PT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+    {id:14, round: 1, fTeam:'1.S',sTeam:'3.RT',fTeamScore:0, sTeamScore:3, goals:[{name: 'Patrik', surname: 'Vacka', goal:2, cl:'3.RT'}, {name: 'Antun', surname: 'Ristić', goal:1, cl:'3.RT'}]},
+    {id:15, round: 1, fTeam:'3.S',sTeam:'4.PT',fTeamScore:3, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
   /*-*/{id:16, round: 1, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '-', surname: '-', goal:0, cl:'-'}]},
   
 /*second round */
