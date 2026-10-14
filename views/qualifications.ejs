@@ -20,7 +20,15 @@
             
                 <div id="myBtn" onclick="sendId(1)">
                     <div class="team bb pd">
-                        <%= fround[0].fTeam %> <span class="rez br"><%= fround[0].fTeamScore %></span>
+                      <!--<%= fround[0].fTeam %> <span class="rez br"><%= fround[0].fTeamScore %></span>->
+
+                        <span class="<%= fround[0].fTeamScore>fround[0].sTeamScore ? 'b' : '' %>">
+                          <%= fround[0].fTeam %>
+                        </span> 
+                        <span class="<%= fround[0].fTeamScore>fround[0].sTeamScore ? "rez g b" : 'rez' %>">
+                          <%= fround[0].fTeamScore %>
+
+
                     </div>
                     <div class="team br">
                         <span class="<%- fround[0].sTeamScore>fround[0].fTeamScore ? 'b' : '' %>">
