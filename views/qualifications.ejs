@@ -102,11 +102,21 @@
 <!--(5)---------------------------------------------------------->
         <div id="myBtn" onclick="sendId(5)">
             <div class="team bb">
-                <%= fround[4].fTeam %> <span class="rez br"><%= fround[4].fTeamScore %></span>
+                        <span class="<%= fround[4].fTeamScore>fround[4].sTeamScore ? 'b' : '' %>">
+                          <%= fround[4].fTeam %>
+                        </span> 
+                        <span class="<%= fround[4].fTeamScore>fround[4].sTeamScore ? "rez g b br" : 'rez br' %>">
+                          <%= fround[4].fTeamScore %>
+                        </span> 
              </div>
              <div class="team br">
                  <!-- <span class="today le">10:40 va</span> -->
-                 <span class="b"><%= fround[4].sTeam %></span> <span class="rez g b"><%= fround[4].sTeamScore %></span>   
+                         <span class="<%- fround[4].sTeamScore>fround[4].fTeamScore ? 'b' : '' %>">
+                          <%= fround[4].sTeam %>
+                        </span> 
+                        <span class="<%= fround[4].sTeamScore>fround[4].fTeamScore ? "rez g b br" : 'rez br' %>">
+                          <%= fround[4].sTeamScore %>
+                        </span> 
              </div> 
         </div>
             
