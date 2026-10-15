@@ -24,7 +24,7 @@ const firstRound=[
     {id:3, round: 1, fTeam:'3.EL',sTeam:'2.SE',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:4, round: 1, fTeam:'1.MT',sTeam:'3.PT',fTeamScore:1, sTeamScore:1, goals:[{name: 'Gabrijel', surname: 'Doljanin', goal:1, cl:'3.PT'}, {name: 'Luka', surname: 'Ogujić', goal:1, cl:'3.MT'}]},
     {id:5, round: 1, fTeam:'3.SP',sTeam:'1.RT',fTeamScore:1, sTeamScore:3, goals:[{name: 'Gabriel', surname: 'Jozić', goal:1, cl:'1.RT'}, {name: 'Ivan', surname: 'Branković', goal:3, cl:'3.SP'}]},
-    {id:6, round: 1, fTeam:'2.PT',sTeam:'2.EL',fTeamScore:1, sTeamScore:8, goals:[{name: 'Ivan', surname: 'Mlinar', goal:1, cl:'2.EL'},{name: 'Lukas', surname: 'Tutić', goal:2, cl:'2.EL'},{name: 'Ante', surname: 'Jurić', goal:3, cl:'2.EL'},{name: 'Samuel', surname: 'Kaličanec', goal:2, cl:'2.EL'}]},
+    {id:6, round: 1, fTeam:'2.PT',sTeam:'2.EL',fTeamScore:1, sTeamScore:8, goals:[{name: 'Ivano', surname: 'Rekić', goal:1, cl:'2.PT'},{name: 'Ivan', surname: 'Mlinar', goal:1, cl:'2.EL'},{name: 'Lukas', surname: 'Tutić', goal:2, cl:'2.EL'},{name: 'Ante', surname: 'Jurić', goal:3, cl:'2.EL'},{name: 'Samuel', surname: 'Kaličanec', goal:2, cl:'2.EL'}]},
     {id:7, round: 1, fTeam:'KM',sTeam:'2.P',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
     {id:8, round: 1, fTeam:'-',sTeam:'4.EL',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:'-'}]},
     {id:9, round: 1, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:'-'}]},
