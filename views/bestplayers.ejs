@@ -43,13 +43,15 @@
        <!--     <tbody id="bp-list">-->
         <tbody>
             <% bp.forEach((player,i) => { %>
-                <tr>
-                    <td><%=i+1 %></td>
-                    <td><%= player.surname%></td>
-                    <td><%= player.name%></td>
-                    <td><%= player.goal%></td>
-                    <td><%= player.cl%></td> 
-                </tr>      
+                <% if (true) { %>
+                    <tr>
+                        <td><%=i+1 %></td>
+                        <td><%= player.surname%></td>
+                        <td><%= player.name%></td>
+                        <td><%= player.goal%></td>
+                        <td><%= player.cl%></td> 
+                    </tr> 
+                <% } %>
         <% }) %>
         </tbody>
                 
