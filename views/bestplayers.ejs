@@ -43,7 +43,7 @@
        <!--     <tbody id="bp-list">-->
         <tbody>
             <% bp.forEach((player,i) => { %>
-                <% if (true) { %>
+                <% if (player.surname!='autogol') { %>
                     <tr>
                         <td><%=i+1 %></td>
                         <td><%= player.surname%></td>
