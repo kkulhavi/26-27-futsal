@@ -169,20 +169,10 @@
         <div class="separator-11"></div>
         <div id="myBtn" onclick="sendId(8)">
             <div class="team bb br">
-                        <span class="<%= fround[7].fTeamScore>fround[7].sTeamScore ? 'b' : '' %>">
-                          <%= fround[7].fTeam %>
-                        </span> 
-                        <span class="<%= fround[7].fTeamScore>fround[7].sTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround7].fTeamScore %>
-                        </span> 
+                <%= fround[7].fTeam %> <span class="rez br"><%= fround[7].fTeamScore %></span>
             </div>
             <div class="team">
-                        <span class="<%- fround[7].sTeamScore>fround[7].fTeamScore ? 'b' : '' %>">
-                          <%= fround[1].sTeam %>
-                        </span> 
-                        <span class="<%= fround[7].sTeamScore>fround[7].fTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[7].sTeamScore %>
-                        </span> 
+                <span class="b"><%= fround[7].sTeam %></span> <span class="rez br g"><%= fround[7].sTeamScore %></span>  
             </div>
         </div>
 <!--(9)---------------------------------------------------------->            
