@@ -37,7 +37,7 @@ const firstRound=[
     {id:16, round: 1, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:'-'}]},
   
 /*second round */
-      {id:17, round: 2, fTeam:'4.MT',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:17, round: 2, fTeam:'4.MT',sTeam:'-',fTeamScore:0, sTeamScore:0, pen1:3, pen2:4 goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:18, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:19, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:20, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
