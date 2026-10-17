@@ -4,7 +4,25 @@
   // Define your reusable function
   function showTeam(id, position) {
     if(id.hasOwnProperty('pen1')){
-
+              if(position=='pos3'){
+                  return `
+                    <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
+                    ${id.fTeam}
+                    <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
+                      ${id.fTeamScore}
+                    </span> 
+                  `
+              }
+              else if(position=='pos4'){
+                  return `
+                    <span class="${id.sTeamScore>id.fTeamScore ? 'b' : ''}">
+                      ${id.sTeam}
+                    </span> 
+                    <span class="${id.sTeamScore>id.fTeamScore ? "rez g b br" : 'rez br'}">
+                      ${id.sTeamScore}
+                    </span> 
+                  `
+              }
     }
     else
       if(position=='pos1'){
