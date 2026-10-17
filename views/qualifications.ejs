@@ -272,12 +272,12 @@
 <!--(17)---------------------------------------------------------------->
 <div id="myBtn" onclick="sendId(17)">
                 <div class="team bb">
-                    <%= fround[16].fTeam %> <span class="rez br"><%= fround[16].fTeamScore %></span>
+                    <%- showTeam(fround[16], 'pos1') %>
                 </div>
                 <div class="small-box">
                 <div class="team br mb2">
                     <!-- <span class="today le">13:35 dv</span> -->
-                    <span class="b"><%= fround[16].sTeam %></span> <span class="rez g b"><%= fround[16].sTeamScore %></span>   
+                    <%- showTeam(fround[16], 'pos2') %> 
                 </div>   
                 </div>
 </div>
@@ -286,11 +286,11 @@
 <div class="separator-2"></div>
 <div id="myBtn" onclick="sendId(18)">
                 <div class="team bb br">
-                    <%= fround[17].fTeam %> <span class="rez"><%= fround[17].fTeamScore %></span>
+                    <%- showTeam(fround[17], 'pos3') %>
                 </div>  
                 <div class="team">
                     <!-- <span class="today le">13:35 va</span> -->
-                    <span class="b"><%= fround[17].sTeam %></span> <span class="rez g b"><%= fround[17].sTeamScore %></span>     
+                    <%- showTeam(fround[17], 'pos4') %>   
                 </div>
 </div>
 <!--(19)------------------------------------------------------------------->
