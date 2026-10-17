@@ -6,10 +6,10 @@
     if(id.hasOwnProperty('pen1')){
               if(position=='pos3'){
                   return `
-                    <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
+                    <span class="${id.pen1>id.pen2 ? 'b' : ''}">
                     ${id.fTeam}
-                    <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
-                      ${id.fTeamScore}
+                    <span class="${id.pen1>id.pen2 ? "rez g b br" : 'rez br'}">
+                     ( ${id.pen1} )
                     </span> 
                   `
               }
