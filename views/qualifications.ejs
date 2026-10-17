@@ -6,11 +6,11 @@
     
     return `
 
-                        <span class="<%= ${fround[id].fTeamScore>fround[id].sTeamScore ? 'b' : ''} %>">
-                          <%= ${fround[id].fTeam} %>
+                        <span class="<%= ${id.fTeamScore>id.sTeamScore ? 'b' : ''} %>">
+                          <%= ${id.fTeam} %>
                         </span> 
-                        <span class="<%= ${fround[0].fTeamScore>fround[0].sTeamScore ? "rez g b br" : 'rez br'} %>">
-                          <%= ${fround[id].fTeamScore} %>
+                        <span class="<%= ${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'} %>">
+                          <%= ${id.fTeamScore} %>
                         </span> 
 `
   }
@@ -38,7 +38,7 @@
             
                 <div id="myBtn" onclick="sendId(1)">
                     <div class="team bb pd">
-<%= renderBadge(0) %>
+<%= renderBadge(fround[0]) %>
                     </div>
                     <div class="team br">
                         <span class="<%- fround[0].sTeamScore>fround[0].fTeamScore ? 'b' : '' %>">
