@@ -2,13 +2,15 @@
 
 <% 
   // Define your reusable function
-  function showTeam(id) {
- return `          <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
-                          ${id.fTeam}
-                        </span> 
-                        <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
-                          ${id.fTeamScore}
-                        </span> 
+  function showTeam(id, mark) {
+if(mark=='u1')
+ return `          
+        <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
+          ${id.fTeam}
+        </span> 
+        <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
+          ${id.fTeamScore}
+        </span> 
 `
   }
 %>
@@ -36,7 +38,7 @@
             
                 <div id="myBtn" onclick="sendId(1)">
                     <div class="team bb pd">
-                        <%- showTeam(fround[0]) %>
+                        <%- showTeam(fround[0], 'u1') %>
                     </div>
                     <div class="team br">
                         <span class="<%- fround[0].sTeamScore>fround[0].fTeamScore ? 'b' : '' %>">
