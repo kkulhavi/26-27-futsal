@@ -13,6 +13,15 @@
   </div>
 
 </div>
+<% 
+  // 1. Defined inside EJS tags on the server side
+  function renderBadge(status) {
+    let color = status === 'active' ? 'green' : 'gray';
+    // Use hyphen (<%-%>) when outputting raw HTML strings
+    return `<span class="badge" style="background-color: ${color}">${status}</span>`;
+  }
+%>
+
       
         <div class="first-round box">
 <!--(1)---------------------------------------------------------->
