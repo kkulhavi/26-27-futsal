@@ -3,7 +3,10 @@
 <% 
   // Define your reusable function
   function showTeam(id, position) {
-    if(id.pen==null)
+    if(id.hasOwnProperty('pen1')){
+
+    }
+    else
       if(position=='pos1'){
          return `          
               <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
