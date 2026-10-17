@@ -2,9 +2,17 @@
 
 <% 
   // Define your reusable function
-  function renderBadge(status) {
-    let color = status === 'active' ? 'green' : 'gray';
-    return `<span class="badge" style="background-color: ${color}">${status}</span>`;
+  function renderBadge(id) {
+    
+    return `
+
+                        <span class="<%= ${fround[id].fTeamScore>fround[id].sTeamScore ? 'b' : ''} %>">
+                          <%= ${fround[id].fTeam} %>
+                        </span> 
+                        <span class="<%= ${fround[0].fTeamScore>fround[0].sTeamScore ? "rez g b br" : 'rez br'} %>">
+                          <%= ${fround[id].fTeamScore} %>
+                        </span> 
+`
   }
 %>
 <!-- elimination chart -->
@@ -21,7 +29,7 @@
   </div>
 
 </div>
-<div><%- renderBadge('active') %></div>
+
 
       
         <div class="first-round box">
@@ -30,12 +38,7 @@
             
                 <div id="myBtn" onclick="sendId(1)">
                     <div class="team bb pd">
-                        <span class="<%= fround[0].fTeamScore>fround[0].sTeamScore ? 'b' : '' %>">
-                          <%= fround[0].fTeam %>
-                        </span> 
-                        <span class="<%= fround[0].fTeamScore>fround[0].sTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[0].fTeamScore %>
-                        </span> 
+<%- renderBadge(0) %>
                     </div>
                     <div class="team br">
                         <span class="<%- fround[0].sTeamScore>fround[0].fTeamScore ? 'b' : '' %>">
