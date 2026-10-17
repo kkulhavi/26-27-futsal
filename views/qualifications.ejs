@@ -3,6 +3,7 @@
 <% 
   // Define your reusable function
   function showTeam(id, position) {
+    if(id.pen==null)
       if(position=='pos1'){
          return `          
               <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
