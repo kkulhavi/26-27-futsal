@@ -1,4 +1,12 @@
 <%- include('header'); -%>
+
+<% 
+  // Define your reusable function
+  function renderBadge(status) {
+    let color = status === 'active' ? 'green' : 'gray';
+    return `<span class="badge" style="background-color: ${color}">${status}</span>`;
+  }
+%>
 <!-- elimination chart -->
 <div class="container">
 
