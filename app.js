@@ -37,14 +37,14 @@ const firstRound=[
     {id:16, round: 1, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:'-'}]},
   
 /*second round */
-      {id:17, round: 2, fTeam:'4.MT',sTeam:'-',fTeamScore:0, sTeamScore:0, pen1:3, pen2:4, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:18, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:19, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:17, round: 2, fTeam:'4.MT',sTeam:'2.MT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:18, round: 2, fTeam:'-',sTeam:'3.PT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:19, round: 2, fTeam:'1.RT',sTeam:'2.EL',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:20, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:21, round: 2, fTeam:'3.MT',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:22, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:23, round: 2, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-      {id:24, round: 2, fTeam:'-',sTeam:'PROF',fTeamScore:0, sTeamScore:0 , goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:21, round: 2, fTeam:'3.MT',sTeam:'1.P',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:22, round: 2, fTeam:'2.S',sTeam:'4.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:23, round: 2, fTeam:'1.P',sTeam:'3.RT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:24, round: 2, fTeam:'3.S',sTeam:'PROF',fTeamScore:0, sTeamScore:0 , goals:[{name: '', surname: '', goal:0, cl:''}]},
       //quarter finals-round 3
       /*25-28 */
       {id:25, round: 3, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
