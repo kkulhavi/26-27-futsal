@@ -36,6 +36,16 @@
             </span> 
           `
       }
+      else if(position=='pos4'){
+          return `
+            <span class="${id.sTeamScore>fround[1].fTeamScore ? 'b' : ''}">
+              ${id.sTeam}
+            </span> 
+            <span class="${id.sTeamScore>id.fTeamScore ? "rez g b br" : 'rez br'}">
+              ${id.sTeamScore}
+            </span> 
+          `
+      }
   }
 %>
 
@@ -79,12 +89,7 @@
             </div>
             <div class="team">
                 <!-- <span class="today le">12:20 va</span> -->
-                        <span class="<%- fround[1].sTeamScore>fround[1].fTeamScore ? 'b' : '' %>">
-                          <%= fround[1].sTeam %>
-                        </span> 
-                        <span class="<%= fround[1].sTeamScore>fround[1].fTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[1].sTeamScore %>
-                        </span> 
+                      <%- showTeam(fround[1], 'pos4') %>
             </div>
         </div>        
             
