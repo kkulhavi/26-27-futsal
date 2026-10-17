@@ -17,6 +17,10 @@ function sendId(id){
   if (id==1||id==9) {
     message.innerHTML='nema para 🤑 $ 💲 ＄ 💰'
   }
+  else if(id==15)
+  {
+    message.innerHTML='predana utakmica'
+  }
   else if(id==100)
   {
     message.innerHTML='nadolazeća utakmica'
