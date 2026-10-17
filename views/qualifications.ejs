@@ -15,10 +15,10 @@
       }
       if(position=='pos2'){
           return `
-              <span class="${id.sTeamScore>fround[0].fTeamScore} ? 'b' : ''}">
+              <span class="${id.sTeamScore>id.fTeamScore} ? 'b' : ''}">
                 ${id.sTeam}
               </span> 
-              <span class="${idfround[0].sTeamScore>fround[0].fTeamScore ? "rez g b br" : 'rez br'}">
+              <span class="${id.sTeamScore>id.fTeamScore ? "rez g b br" : 'rez br'}">
                 ${id.sTeamScore}
               </span>  
           `
@@ -52,7 +52,7 @@
                         <%- showTeam(fround[0], 'pos1') %>
                     </div>
                     <div class="team br">
-                       
+                       <%- showTeam(fround[0], 'pos2') %>
                     </div>
                 </div >
            
