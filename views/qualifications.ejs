@@ -15,11 +15,11 @@
               }
               else if(position=='pos4'){
                   return `
-                    <span class="${id.sTeamScore>id.fTeamScore ? 'b' : ''}">
+                    <span class="${id.pen2>id.pen1 ? 'b' : ''}">
                       ${id.sTeam}
                     </span> 
-                    <span class="${id.sTeamScore>id.fTeamScore ? "rez g b br" : 'rez br'}">
-                      ${id.sTeamScore}
+                    <span class="${id.pen2>id.pen1 ? "rez g b br" : 'rez br'}">
+                      ${id.sTeamScore} (${id.pen2})
                     </span> 
                   `
               }
