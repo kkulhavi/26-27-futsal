@@ -3,15 +3,26 @@
 <% 
   // Define your reusable function
   function showTeam(id, position) {
-if(position=='pos1')
- return `          
-        <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
-          ${id.fTeam}
-        </span> 
-        <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
-          ${id.fTeamScore}
-        </span> 
-`
+      if(position=='pos1'){
+         return `          
+              <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
+                ${id.fTeam}
+              </span> 
+              <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
+                ${id.fTeamScore}
+              </span> 
+        `
+      }
+      else if(position=='pos2'){
+          return `
+              <span class="${id.sTeamScore>fround[0].fTeamScore} ? 'b' : ''}">
+                ${id.sTeam}
+              </span> 
+              <span class="${idfround[0].sTeamScore>fround[0].fTeamScore ? "rez g b br" : 'rez br'}">
+                ${id.sTeamScore}
+              </span>  
+          `
+      }
   }
 %>
 
@@ -41,12 +52,7 @@ if(position=='pos1')
                         <%- showTeam(fround[0], 'pos1') %>
                     </div>
                     <div class="team br">
-                        <span class="<%- fround[0].sTeamScore>fround[0].fTeamScore ? 'b' : '' %>">
-                          <%= fround[0].sTeam %>
-                        </span> 
-                        <span class="<%= fround[0].sTeamScore>fround[0].fTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[0].sTeamScore %>
-                        </span>   
+                       <%- showTeam(fround[0], 'pos2') %>
                     </div>
                 </div >
            
