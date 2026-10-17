@@ -163,10 +163,10 @@
         <div class="separator-11"></div>
         <div id="myBtn" onclick="sendId(8)">
             <div class="team bb br">
-                <%= fround[7].fTeam %> <span class="rez br"><%= fround[7].fTeamScore %></span>
+                <%- showTeam(fround[7], 'pos3') %>
             </div>
             <div class="team">
-                <span class="b"><%= fround[7].sTeam %></span> <span class="rez br g"><%= fround[7].sTeamScore %></span>  
+                <%- showTeam(fround[7], 'pos4') %>
             </div>
         </div>
 <!--(9)---------------------------------------------------------->            
