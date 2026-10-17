@@ -126,21 +126,11 @@
 <!--(5)---------------------------------------------------------->
         <div id="myBtn" onclick="sendId(5)">
             <div class="team bb">
-                        <span class="<%= fround[4].fTeamScore>fround[4].sTeamScore ? 'b' : '' %>">
-                          <%= fround[4].fTeam %>
-                        </span> 
-                        <span class="<%= fround[4].fTeamScore>fround[4].sTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[4].fTeamScore %>
-                        </span> 
+                  <%- showTeam(fround[4], 'pos1') %>
              </div>
              <div class="team br">
                  <!-- <span class="today le">10:40 va</span> -->
-                         <span class="<%- fround[4].sTeamScore>fround[4].fTeamScore ? 'b' : '' %>">
-                          <%= fround[4].sTeam %>
-                        </span> 
-                        <span class="<%= fround[4].sTeamScore>fround[4].fTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[4].sTeamScore %>
-                        </span> 
+                  <%- showTeam(fround[4], 'pos2') %>
              </div> 
         </div>
             
@@ -148,21 +138,11 @@
         <div class="separator-11"></div>
         <div id="myBtn" onclick="sendId(6)">
             <div class="team bb br">
-                        <span class="<%= fround[5].fTeamScore>fround[5].sTeamScore ? 'b' : '' %>">
-                          <%= fround[5].fTeam %>
-                        </span> 
-                        <span class="<%= fround[5].fTeamScore>fround[5].sTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[5].fTeamScore %>
-                        </span> 
+                <%- showTeam(fround[5], 'pos3') %>
             </div>
             <div class="team">
                 <!-- <span class="today le">10:40 dv</span> -->
-                        <span class="<%- fround[5].sTeamScore>fround[5].fTeamScore ? 'b' : '' %>">
-                          <%= fround[5].sTeam %>
-                        </span> 
-                        <span class="<%= fround[5].sTeamScore>fround[5].fTeamScore ? "rez g b br" : 'rez br' %>">
-                          <%= fround[5].sTeamScore %>
-                        </span>   
+                <%- showTeam(fround[5], 'pos4') %>
             </div>
         </div>    
             
