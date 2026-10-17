@@ -3,19 +3,13 @@
 <% 
   // Define your reusable function
   function showTeam(id) {
-var id=idd%0
-    switch(id){
-0:    return `          <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
+ return `          <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
                           ${id.fTeam}
                         </span> 
                         <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
                           ${id.fTeamScore}
                         </span> 
 `
-break;
-default: return `def`
-    }
-
   }
 %>
 <!-- elimination chart -->
