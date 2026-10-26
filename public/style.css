@@ -185,7 +185,9 @@ a:hover{
     display: block;
     height: 3%;
 }
-
+i{
+    padding-top:5px;
+}
 a{
     text-decoration: none;
     text-transform: uppercase;
@@ -263,7 +265,7 @@ option:first-child{
     justify-content: center;
     align-items: center;
 }
-.card img{
+.card img
     width: 50px;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
