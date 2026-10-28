@@ -268,14 +268,14 @@ option:first-child{
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-.links{
+.linkss{
     
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
-.links a{
+.linkss a{
     padding: 10px;
 }
 .y{
