@@ -249,7 +249,7 @@ app.get('/finals', (req, res) => {
 })
 app.get('/bestplayers', (req, res) => {
   countBest++
-  res.render('bestplayers2ndquarter',{bp:groupByGoalAndSortBySurnameAsc, total:totalScore, y1:'',y2:'',yq:'',y2q:'',y:'y'})
+  res.render('bestplayers',{bp:groupByGoalAndSortBySurnameAsc, total:totalScore, y1:'',y2:'',yq:'',y2q:'',y:'y'})
 })
 app.get('/bestplayers2ndquarter', (req, res) => {
   countBest++
