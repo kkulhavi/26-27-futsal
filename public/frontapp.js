@@ -27,7 +27,7 @@ function sendId(id){
   }
   else if(id==32)
   {
-    message.innerHTML='Penali: <br><b>Prof</b> 1<br><b>4.EL</b> 2'
+    message.innerHTML='<b>Tim1</b> 0<br><b>Tim2</b> 0'
   }
   else if(id==99)
   {
