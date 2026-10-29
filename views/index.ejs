@@ -168,10 +168,10 @@
 <!--(29)--------------------------------------------------------->
 <div id="myBtn" onclick="sendId(29)">
       <div class="team bb">
-                <%= fround[28].fTeam %> <span class="rez br"><%= fround[28].fTeamScore %></span>
+                <%- showTeam(fround[28], 'pos1') %>
             </div>
             <div class="team br">
-                <span class="b"><%= fround[28].sTeam %></span> <span class="rez g b"><%= fround[28].sTeamScore %></span>   
+                <%- showTeam(fround[28], 'pos2') %>  
             </div>
     </div>
             </span>
@@ -192,10 +192,10 @@
             
             <div id="myBtn" onclick="sendId(30)">
                 <div class="team bb br bq">
-                    <%= fround[29].fTeam %> <span class="rez"><%= fround[29].fTeamScore %></span>
+                    <%- showTeam(fround[29], 'pos3') %>
                 </div>  
                 <div class="team s3">
-                    <span class="b"><%= fround[29].sTeam %></span> <span class="rez g b"><%= fround[29].sTeamScore %></span>     
+                    <%- showTeam(fround[29], 'pos4') %>   
                 </div>
             </div>
 
@@ -210,11 +210,11 @@
 <!--31------------------------------------------------------------------->
             <div id="myBtn" onclick="sendId(31)">
                 <div class="team bb">
-                    🏆<%= fround[30].fTeam %> <span class="rez br"><%= fround[30].fTeamScore %></span>  
+                    🏆<%- showTeam(fround[30], 'pos1') %> 
                 </div>
                     
                 <div class="team">
-                    <span class="b"><%= fround[30].sTeam %></span> <span class="rez g b"><%= fround[30].sTeamScore %></span>   
+                    <%- showTeam(fround[30], 'pos2') %> 
                 </div>   
             </div>
             
