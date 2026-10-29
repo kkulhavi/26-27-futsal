@@ -131,18 +131,18 @@
                 </div>  
                 <div class="team">
                     <!-- <span class="today le">20.10. <br>12:25</span> -->
-                    <%- showTeam(fround[26], 'pos4') %>
+                    <%- showTeam(fround[25], 'pos4') %>
                 </div>
     </div>    
 <!--27---------------------------------------------------------------->
     <div class="separator-q-noline"></div> 
     <div id="myBtn" onclick="sendId(27)">
             <div class="team bb">
-                <%= fround[26].fTeam %> <span class="rez br"><%= fround[26].fTeamScore %></span>
+                <%- showTeam(fround[26], 'pos1') %>
             </div>
             <div class="team br">
                 <!-- <span class="today le">18.10. <br>11:35</span> -->
-                <span class="b"><%= fround[26].sTeam %></span> <span class="rez g b"><%= fround[26].sTeamScore %></span>   
+                <%- showTeam(fround[26], 'pos2') %> 
             </div>
     </div>  
 <!--28---------------------------------------------------------------->
@@ -150,11 +150,11 @@
     <div id="myBtn" onclick="sendId(28)">
             <div class="team bb br">
                 
-                <%= fround[27].fTeam %> <span class="rez br"><%= fround[27].fTeamScore %></span>
+                <%- showTeam(fround[27], 'pos3') %>
             </div>
             <div class="team">
                 <!-- <span class="today le">19.10. <br>13:15</span> -->
-                <span class="b"><%= fround[27].sTeam %></span> <span class="rez br g"><%= fround[27].sTeamScore %></span>  
+                <%- showTeam(fround[27], 'pos4') %>
                 
             </div>
         </div>
