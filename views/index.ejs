@@ -1,4 +1,91 @@
 <%- include('header'); -%>
+
+<% 
+  function showTeam(id, position) {
+    if(id.hasOwnProperty('pen1')){
+              if(position=='pos1'){
+                 return `          
+                      <span class="${id.pen1>id.pen2 ? 'b' : ''}">
+                        ${id.fTeam}
+                      </span> 
+                      <span class="${id.pen1>id.pen2 ? "rez g b br" : 'rez br'}">
+                        ${id.fTeamScore} (${id.pen1})
+                      </span> 
+                `
+              }
+              else if(position=='pos2'){
+                  return `
+                      <span class="${id.pen2>id.pen1 ? 'b' : ''}">
+                        ${id.sTeam}
+                      </span> 
+                      <span class="${id.pen2>id.pen1 ? "rez g b br" : 'rez br'}">
+                        ${id.sTeamScore} (${id.pen2})
+                      </span>  
+                  `
+              }
+              else if(position=='pos3'){
+                  return `
+                    <span class="${id.pen1>id.pen2 ? 'b' : ''}">
+                    ${id.fTeam}
+                    <span class="${id.pen1>id.pen2 ? "rez g b br" : 'rez br'}">
+                     ${id.fTeamScore} (${id.pen1})
+                    </span> 
+                  `
+              }
+              else if(position=='pos4'){
+                  return `
+                    <span class="${id.pen2>id.pen1 ? 'b' : ''}">
+                      ${id.sTeam}
+                    </span> 
+                    <span class="${id.pen2>id.pen1 ? "rez g b br" : 'rez br'}">
+                      ${id.sTeamScore} (${id.pen2})
+                    </span> 
+                  `
+              }
+    }
+    else
+      if(position=='pos1'){
+         return `          
+              <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
+                ${id.fTeam}
+              </span> 
+              <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
+                ${id.fTeamScore}
+              </span> 
+        `
+      }
+      else if(position=='pos2'){
+          return `
+              <span class="${id.sTeamScore>id.fTeamScore ? 'b' : ''}">
+                ${id.sTeam}
+              </span> 
+              <span class="${id.sTeamScore>id.fTeamScore ? "rez g b br" : 'rez br'}">
+                ${id.sTeamScore}
+              </span>  
+          `
+      }
+      else if(position=='pos3'){
+          return `
+            <span class="${id.fTeamScore>id.sTeamScore ? 'b' : ''}">
+            ${id.fTeam}
+            <span class="${id.fTeamScore>id.sTeamScore ? "rez g b br" : 'rez br'}">
+              ${id.fTeamScore}
+            </span> 
+          `
+      }
+      else if(position=='pos4'){
+          return `
+            <span class="${id.sTeamScore>id.fTeamScore ? 'b' : ''}">
+              ${id.sTeam}
+            </span> 
+            <span class="${id.sTeamScore>id.fTeamScore ? "rez g b br" : 'rez br'}">
+              ${id.sTeamScore}
+            </span> 
+          `
+      }
+  }
+%>
+
 <!-- elimination chart -->
 <div class="container">
 
