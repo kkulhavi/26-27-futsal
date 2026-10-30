@@ -38,13 +38,13 @@ const firstRound=[
   
 /*second round */
       {id:17, round: 2, fTeam:'4.MT',sTeam:'2.MT',fTeamScore:2, sTeamScore:3, goals:[{name: 'Marko', surname: 'Čović', goal:2, cl:'2:MT'},{name: 'Leni', surname: 'Šelir', goal:1, cl:'2.MT'},{name: 'Borna', surname: 'Kočiš', goal:2, cl:'4.MT'}]},
-      {id:18, round: 2, fTeam:'3.EL',sTeam:'3.PT',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:18, round: 2, fTeam:'3.EL',sTeam:'3.PT',fTeamScore:4, sTeamScore:1, goals:[{name: '', surname: '', goal:0, cl:''}]},
       {id:19, round: 2, fTeam:'3.SP',sTeam:'2.EL',fTeamScore:3, sTeamScore:5, goals:[{name: 'Bekim', surname: 'Sahiti', goal:1, cl:'3.SP'},{name: 'Robert', surname: 'Bahunek', goal:1, cl:'3.SP'},{name: 'Ivo', surname: 'Ilinović', goal:1, cl:'3.SP'},{name: 'Ante', surname: 'Jurić', goal:1, cl:'2.EL'},{name: 'Lukas', surname: 'Tutić', goal:2, cl:'2.EL'},{name: 'Luka', surname: 'Bernašek', goal:2, cl:'2.EL'},]},
       {id:20, round: 2, fTeam:'2.P',sTeam:'4.EL',fTeamScore:0, sTeamScore:2, goals:[{name: 'Marko', surname: 'Flanjak', goal:2, cl:'4.EL'}]},
-      {id:21, round: 2, fTeam:'3.MT',sTeam:'3.P',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:21, round: 2, fTeam:'3.MT',sTeam:'3.P',fTeamScore:4, sTeamScore:1, goals:[{name: 'Leon', surname: 'Rendić', goal:2, cl:'3.MT'},{name: 'Vanja', surname: 'Horvat', goal:2, cl:'3.MT'},{name: 'Igor', surname: 'Jaković', goal:1, cl:'3.P'},]},
       {id:22, round: 2, fTeam:'2.S',sTeam:'4.RT',fTeamScore:1, sTeamScore:10, goals:[{name: 'Stefan', surname: 'Radulović', goal:8, cl:'4.RT'},{name: 'Matej', surname: 'Medaković', goal:2, cl:'4.RT'},{name: 'Ivo', surname: 'Grgić', goal:1, cl:'2.S'},]},
       {id:23, round: 2, fTeam:'1.P',sTeam:'3.RT',fTeamScore:0, sTeamScore:14, goals:[{name: 'Patrik', surname: 'Vacka', goal:7, cl:'3.RT'},{name: 'Niko', surname: 'Cindrić', goal:2, cl:'3.RT'},{name: 'Jakov', surname: 'Gudelj', goal:1, cl:'3.RT'},{name: 'Bruno', surname: 'Balog', goal:1, cl:'3.RT'},{name: 'Borna', surname: 'Krivsky', goal:3, cl:'3.RT'},]},
-      {id:24, round: 2, fTeam:'3.S',sTeam:'PROF',fTeamScore:0, sTeamScore:0 , goals:[{name: '', surname: '', goal:0, cl:''}]},
+      {id:24, round: 2, fTeam:'3.S',sTeam:'PROF',fTeamScore:1, sTeamScore:5 , goals:[{name: 'Matej', surname: 'Bubnjić', goal:1, cl:'PROF'},{name: 'Tomislav', surname: 'Brletić', goal:2, cl:'PROF'},{name: 'Danko', surname: 'Tomašek', goal:1, cl:'PROF'},{name: 'Branko', surname: 'Blažević', goal:1, cl:'PROF'},{name: 'Erik', surname: 'Živanović', goal:1, cl:'3.S'},]},
   //quarter finals-round 3
       /*25-28 */
       {id:25, round: 3, fTeam:'2.MT',sTeam:'3.EL',fTeamScore:2, sTeamScore:2, pen1:3, pen2:2, goals:[{name: 'Tin', surname: 'Horak', goal:1, cl:'3.EL'},{name: 'Teo', surname: 'Sivonjić', goal:1, cl:'3.EL'},{name: 'Marko', surname: 'Čović', goal:1, cl:'2.MT'},{name: 'Patrik', surname: 'Finek', goal:1, cl:'2.MT'}]},
