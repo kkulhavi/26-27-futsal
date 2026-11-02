@@ -54,7 +54,7 @@ const firstRound=[
    //semi finals
       /*29-30 */
   {id:29, round: 4, fTeam:'2.MT',sTeam:'4,EL',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
-  {id:30, round: 4, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  {id:30, round: 4, fTeam:'4.RT',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
    //finals
       /*31 */
   {id:31, round: 5, fTeam:'-',sTeam:'-',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
