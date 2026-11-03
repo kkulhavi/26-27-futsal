@@ -57,7 +57,7 @@ const firstRound=[
   {id:30, round: 4, fTeam:'4.RT',sTeam:'PROF',fTeamScore:2, sTeamScore:6, goals:[{name: '', surname: '', goal:0, cl:''}]},
    //finals
       /*31 */
-  {id:31, round: 5, fTeam:'4.EL',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  {id:31, round: 5, fTeam:'4.EL',sTeam:'PROF',fTeamScore:1, sTeamScore:2, goals:[{name: '', surname: '', goal:0, cl:''}]},
 ]
 /*
 function resultFormat(firstRo){
