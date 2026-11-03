@@ -53,7 +53,7 @@ const firstRound=[
       {id:28, round: 3, fTeam:'3.RT',sTeam:'PROF',fTeamScore:1, sTeamScore:6, goals:[{name: 'Jakov', surname: 'Gudelj', goal:1, cl:'3.RT'},{name: 'Danko', surname: 'Tomašek', goal:1, cl:'PROF'},{name: 'Matej', surname: 'Bubnjić', goal:2, cl:'PROF'},{name: 'Valentino', surname: 'Mik', goal:1, cl:'PROF'},{name: 'Juraj', surname: 'Šargač', goal:2, cl:'PROF'},]},
    //semi finals
       /*29-30 */
-  {id:29, round: 4, fTeam:'2.MT',sTeam:'4,EL',fTeamScore:0, sTeamScore:2, goals:[{name: '', surname: '', goal:0, cl:''}]},
+  {id:29, round: 4, fTeam:'2.MT',sTeam:'4.EL',fTeamScore:0, sTeamScore:2, goals:[{name: '', surname: '', goal:0, cl:''}]},
   {id:30, round: 4, fTeam:'4.RT',sTeam:'PROF',fTeamScore:0, sTeamScore:0, goals:[{name: '', surname: '', goal:0, cl:''}]},
    //finals
       /*31 */
